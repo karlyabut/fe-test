@@ -61,6 +61,7 @@
   margin-top: 30px;
 }
 .btn-download {
+  cursor: pointer;
   width: 175px;
   height: 50px;
 }

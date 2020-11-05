@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import logo from './images/logo@1x.png';
+// components
 import PlayerContainer from './components/PlayerContainer';
 import Button from './components/Button';
-import logo from './images/logo@1x.png';
+
+//icons
 import progress from './images/icons/progress.svg';
 import moneybag from './images/icons/money-bag.svg';
 import notifyme from './images/icons/notify-me.svg';
