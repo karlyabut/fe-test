@@ -1,38 +1,100 @@
+.logo {
+  margin-top: 20px;
+}
+.p-stats {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: -10px;
+}
+.morgan-font {
+  color: #464646;
+  font-size: 55px;
+  font-family: MorganPosterAvec;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progress-img {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lotto-container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 800px;
+  height: 800px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.txt-comeback {
+  color: #737373;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.tip-text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.line-div {
+  border-bottom: 1px solid #dddddd;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.btn-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.btn-notifyme-container{
+  margin-right: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-download-container {
+  margin-top: 30px;
+}
+.btn-download {
+  width: 175px;
+  height: 50px;
+}
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.link-container div {
+  color: #a1a1a1;
+  cursor: pointer;
+  border-right: 1px solid #a1a1a1;
+  padding: 0 10px;
+}
+
+.link-container div:last-child {
+  border-right: 0;
+}
+/* responsive section */
+@media (max-width: 775px) {
+  .lotto-container {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .line-div {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 444px) {
+  .lotto-container {
+    height: 900px;
   }
 }
