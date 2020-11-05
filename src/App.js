@@ -24,7 +24,7 @@ import Russell from './images/players/Dangelo Russell PLP59D709255D994v4.png';
 function App() {
   const [players, setPlayers] = useState([]);
   const playerInfo = [];
-  let zPos = 1000; //for overlapping player headshot from right to left
+  let zPos = 1000; //for overlapping player headshot from left to right
   useEffect(() => {
     fetch('https://cors-anywhere.herokuapp.com/https://playline-dev-test.s3-us-west-2.amazonaws.com/playline-test.json')
       .then(res => res.json())
